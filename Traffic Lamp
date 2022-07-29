@@ -1,4 +1,6 @@
-//c++
+//c++ code
+
+// https://www.tinkercad.com/things/4Tcc1AACeup-cool-rottis/editel?sharecode=XAuuMHHcIUDe9jsYH_6qHg0yg4j2kOiB7MsABdmHzhk
 
 int redled = 2; 
 int yellowled = 3; 
