@@ -4,7 +4,7 @@ SKY LAB student branch SKYSIS Embedded System Team's 30 day of Arduino Challange
 
 Project List:
 
- * [ ] Trafik Lambası/ Traffic Lamp
+ * [x] Trafik Lambası/ Traffic Lamp
  
  * [ ] Ev sıcaklığını kontrol eden sistem/ Room Temprature Control
  
