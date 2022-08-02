@@ -1,1 +1,0 @@
-# Bİ ŞEYLER VAR.
