@@ -1,0 +1,33 @@
+
+#include <LiquidCrystal.h>
+
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+
+const int tmp = A0;
+const int p = 8;
+
+
+
+void setup() {
+  lcd.begin(16, 2);
+  Serial.begin(9600);
+  pinMode(p, OUTPUT);
+}
+
+
+void loop() {
+  digitalWrite(p,LOW);
+  int Temp = analogRead(tmp);
+  float volts = (Temp / 965.0) * 5;
+  float c = (volts - .5) * 100;
+  float f = (c * 9 / 5 + 32);
+  Serial.println(f);
+  lcd.setCursor(5, 0);
+  lcd.print(f);
+  delay(3000);
+  
+ 
+
+}
+
