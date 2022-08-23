@@ -6,7 +6,7 @@ Project List:
 
  * [x] Trafik Lambası/ Traffic Lamp
  
- * [ ] Ev sıcaklığını kontrol eden sistem/ Room Temprature Control
+ * [x] Ev sıcaklığını kontrol eden sistem/ Room Temprature Control
  
  * [ ] Karanlıkta ışıkları otonom açan sistem/ Night Lighter
  
