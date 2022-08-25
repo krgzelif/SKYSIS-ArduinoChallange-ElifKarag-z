@@ -18,6 +18,6 @@ Project List:
  
  * [ ] Kombinasyon kilidi/Combination Lock
  
- * [ ] Hesap Makinası/ Calculator
+ * [x] Hesap Makinası/ Calculator
  
  * [ ] Servo Motor ile Güneş Takibi/ Solar Detechtor
