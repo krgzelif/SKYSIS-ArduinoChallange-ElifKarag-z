@@ -16,7 +16,7 @@ Project List:
  
  * [ ] Şifreli kasa sistemi/ Safe system with keypad
  
- * [ ] Kombinasyon kilidi/Combination Lock
+ * [x] Kombinasyon kilidi/Combination Lock
  
  * [x] Hesap Makinası/ Calculator
  
