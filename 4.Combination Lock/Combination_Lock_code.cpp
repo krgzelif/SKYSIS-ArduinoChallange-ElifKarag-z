@@ -30,9 +30,9 @@ void setup(){ //run once at sketch startup
 
   pinMode(Red, OUTPUT); //the red LED is an output
   pinMode(greenLed, OUTPUT); // the green LED is an output
-//  setupLights(); //run the setupLights routine
-//  setupLights(); //run it again
- // delay(650); //delay (only for effect, :P not needed)
+  setupLights(); //run the setupLights routine
+  setupLights(); //run it again
+  delay(650); //delay (only for effect)
   digitalWrite(Red, LOW); //turn the red LED on
   for (int i = 0; i < 6;i++){ //work through numbers 0-3
     Serial.println(code[i]); //print each digit of the code
@@ -47,38 +47,37 @@ void loop(){
   if (digitalRead(button1) == LOW){ //if button1 is pressed
     checkEntered1(1); //call checkEntered and pass it a 1
     
-    delay(250);//wait, needed for correct functioning, otherwise
-               //buttons are deemed to be pressed more than once
+    delay(250);
     
   }
   else if (digitalRead(button2) == LOW){ //if button2 is pressed
     checkEntered1(2); //call checkEntered1 and pass it a 2
     
-    delay(250); //wait
+    delay(250); 
     
   }
   else if (digitalRead(button3) == LOW){ //if button3 is pressed
     checkEntered1(3); //call checkEntered1 and pass it a 3
     
-    delay(250); //wait
+    delay(250); 
     
   }
   else if (digitalRead(button4) == LOW){ //if button4 is pressed
     checkEntered1(4); //call checkEntered1 and pass it a 4
     
-    delay(250); //wait
+    delay(250); 
     
   }
     else if (digitalRead(button5) == LOW){ //if button4 is pressed
     checkEntered1(5); //call checkEntered1 and pass it a 4
     
-    delay(250); //wait
+    delay(250); 
     
   }
     else if (digitalRead(button6) == LOW){ //if button4 is pressed
     checkEntered1(6); //call checkEntered1 and pass it a 4
     
-    delay(250); //wait
+    delay(250); 
     
   }
   
